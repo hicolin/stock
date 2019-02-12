@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+
+/*new_list_main*/
+.new_list_main{padding: 0.55rem 0.1rem 0.1rem 0.1rem;}
+.new_list_main li{padding: 0.1rem 0;border-bottom: 1px solid #333333;height: 0.9rem;}
+.new_list_main li a{display: block;}
+.new_list_main li img.nlm_img{height: 0.7rem;width: 1rem;border-radius: 0.03rem;margin-left: 0.1rem;}
+.new_list_main li h1{line-height: 0.25rem;font-size: 0.15rem;color: #bbbbbb;height: 0.5rem;overflow: hidden;}
+.new_list_main li p{line-height: 0.2rem;font-size: 0.12rem;color: #8f92a5;}

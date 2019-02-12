@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+
+/*user_top*/
+.user_top{padding: 0.1rem;padding-top: 0.55rem;}
+.user_top_con{width: 100%;border-radius: 5px;height: 2rem;background: url("../images/user_top_bg.png") top right;background-size: 100%;overflow: hidden;}
+.utc_main{height: 1.4rem;padding: 0.18rem 0.08rem;}
+.utc_main_head{line-height:0.4rem;}
+.utc_main_head img.default_tx{width: 0.4rem;vertical-align: middle;margin-right: 0.1rem;}
+.utc_main_head a{font-size: 0.14rem;color: #ffffff;}
+.utc_main_head span{font-size: 14px;padding: 0 0.05rem;color: #ffffff;}
+.utc_main_con{text-align: center;}
+.utc_main_con h1{}
+.utc_main_con h1 b{font-size: 0.3rem;font-weight: bold;color: #ffffff;margin: 0 0.05rem;}
+.utc_main_con h2{font-size: 0.12rem;color: #fff;line-height: 0.2rem;}
+
+.utc_bot{height: 0.6rem;width: 100%;position: relative;background: #477fee;}
+.utc_bot_item{width: 50%;height: 0.6rem;text-align: center;line-height: 0.6rem;}
+.utc_bot_item a{display: block;height: 0.6rem;}
+.utc_bot_item a i{font-size:0.24rem;color: #ffffff;display: inline-block;vertical-align: middle;margin-top: -0.05rem;margin-right: 0.05rem;}
+.utc_bot_item a span{font-size: 0.12rem;color: #ffffff;}
+.utc_bot .rect{position: absolute;width: 0.02rem;height: 0.15rem;top: 0.225rem;left: 50%;background: #ffffff;opacity: 0.5;}
+
+.user_list{padding: 0.1rem;}
+.user_list li{height: 0.55rem;line-height: 0.55rem;border-bottom: 1px solid #000000;}
+.user_list li a{display: block;padding-left: 0.1rem;}
+.user_list li img{width: 0.20rem;display: inline-block;vertical-align: middle;margin-top: -0.03rem;margin-right: 0.05rem;}
+.user_list li span{font-size: 0.14rem;color: #ffffff;}
+.user_list li i{font-size: 0.14rem;color: #ffffff;}
+
+
+
+/*登录*/
+.login_main{padding:0.1rem 0;}
+.login_main_img{padding-top: 0.55rem;}
+.login_main_img img{width: 0.6rem;}
+.login_main_form{padding: 0 0.1rem;background: #292a34;margin-top: 0.25rem;}
+.login_main_form li{line-height: 0.5rem;height: 0.5rem;border-bottom: 1px solid #363636;position: relative;}
+.login_main_form li i{position: absolute;font-size: 0.16rem;color: #3b87f1;}
+.login_main_form li input{position: absolute;left: 0;top: 0;width: 100%;height: 0.49rem;padding-left: 0.3rem;background: none;border: none;font-size: 0.14rem;color: #dddddd;}
+.login_main_form li button.sendCode,.login_main_form li button.sendCode_register,.login_main_form li button.sendCode_SearPwd{width: 1rem;position: absolute;right: 0;top: 0.15rem;border: none;background: none;border-left: 1px solid #363636;font-size: 0.14rem;color: #3b87f1;}
+.login_main_bot{margin-top: 0.15rem;padding: 0 0.1rem;}
+.lmb_head{line-height: 0.3rem;height: 0.3rem;}
+.lmb_head a{font-size: 0.12rem;color: #8f92a5;display: inline-block;}
+.login_main_bot button{width: 100%;height: 0.4rem;background: #3b87f1;border: none;border-radius: 5px;font-size: 0.15rem;color: #ffffff;margin-top: 0.2rem;}
+
+
+
+/*实名认证*/
+.certificate_main{padding: 0.55rem 0.1rem 0.1rem 0.1rem;}
+.cm_tips{font-size: 0.12rem;line-height: 0.2rem;text-indent: 0.25rem;}
+.certificate_form{padding: 0 0.1rem;background: #292a34;margin-top: 0.15rem;}
+.certificate_form li{line-height: 0.5rem;height: 0.5rem;border-bottom: 1px solid #363636;position: relative;}
+.certificate_form li i{position: absolute;font-size: 0.16rem;color: #3b87f1;}
+.certificate_form li input{position: absolute;left: 0;top: 0;width: 100%;height: 0.49rem;padding-left: 0.3rem;background: none;border: none;font-size: 0.14rem;color: #dddddd;}
+.certificate_form_bot{margin-top: 0.15rem;padding: 0 0.1rem;}
+.certificate_form_bot button{width: 100%;height: 0.4rem;background: #3b87f1;border: none;border-radius: 5px;font-size: 0.15rem;color: #ffffff;margin-top: 0.2rem;}
+
+/*帮助中心*/
+.help_center_main{padding: 0.55rem 0.1rem 0.1rem 0.1rem;}
+.hcm_con{width: 100%;padding:0 0.1rem;background: #33343e;border-radius: 0.05rem;}
+.hcm_con li{height: 0.5rem;line-height: 0.5rem;border-bottom: 1px solid #3a3b46;}
+.hcm_con li a{display: block;font-size: 0.14rem;color: #8f92a5;}
+.hcm_con li:last-child{border-bottom: none;}
+.help_center_detail_main{padding: 0.55rem 0.1rem 0.1rem 0.1rem;}
+.help_center_detail_main p{font-size: 0.14rem;line-height: 0.2rem;color: #aaaaaa;text-indent: 0.28rem;}
+
+
+/*申请提现*/
+.withdraw_main{padding: 0.55rem 0.1rem 0.1rem 0.1rem;}
+.withdraw_main li{line-height: 0.5rem;color: #8f92a5;font-size: 0.14rem;border-bottom: 1px solid #2f2f2f;}
+.withdraw_main li span{display: inline-block;width: 0.8rem;text-align: right;padding-right: 0.1rem;}
+.withdraw_main li i{font-size: 0.18rem;margin-right: 0.03rem;}
+.withdraw_main li input{width: 70%;height: 100%;border: none;background: none;color: #aaaaaa;}
+.withdraw_form_bot button{width: 100%;height: 0.4rem;background: #3b87f1;border: none;border-radius: 5px;font-size: 0.15rem;color: #ffffff;margin-top: 0.2rem;}
+.withdraw_main_tips{margin-top: 0.1rem;}
+.withdraw_main_tips h1{line-height: 0.45rem;font-size: 0.14rem;color: #aaaaaa;font-weight: bold;}
+.withdraw_main_tips h1 i{font-size: 0.16rem;color: #3b87f1;margin-right: 0.05rem;}
+.withdraw_main_tips p{line-height: 0.25rem;font-size: 0.13rem;color: #aaaaaa;}
+.withdraw_main li select{border: none;background: none;width: 70%;height: 100%;color: #aaaaaa;}
+
+
+
+
+
+

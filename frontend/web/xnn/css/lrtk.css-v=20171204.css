@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*reset*/
+
+.clean:before, .clean:after, .clearfix:before, .clearfix:after { content: ""; display: table; }
+.clean:after, .clearfix:after { clear: both; }
+.clean, .clearfix { zoom: 1; }
+.clear { clear: both; }
+.fl { float: left; }
+.fr { float: right; }
+.break { word-wrap: break-word; width: inherit; }
+.linkhidden { text-indent: -9999em; overflow: hidden; }
+.hidden { display: none; }
+
+/*reset*/
+.foot-kefu-phone{height:75px; line-height:75px; font-size:28px;}
+.foot-kefu-phone img {float:left; margin:20px 10px 0;}
+.f-clear{zoom:1}
+.f-clear:after{content:"";display:block;clear:both;font-size:0;line-height:0;visibility:hidden}
+/*主要样式*/
+.subtitle{ width:100%; height:66px; line-height:66px;background:#fb8405;color:#fff; font-size:18px; background:url("../images/suipei.png");}
+.subtitle1{ width:100%; height:45px; line-height:45px;border-top-left-radius:5px; border-top-right-radius:5px; background:#FF5A55;color:#fff; font-size:20px; }
+.subtitle2{ width:100%; height:60px; line-height:60px;border-top-left-radius:5px; border-top-right-radius:5px; background:#64b2c9;color:#fff; font-size:20px; }
+.subNavBox{width:198px;overflow:hidden; border:1px solid #ddd;border-bottom-left-radius:0px; border-bottom-right-radius:0px; border-top:none}
+.subNav{cursor:pointer;font-size:18px; height:36px; line-height:36px;border:none;border-radius:5px; background:#ccc;color:#666; margin:10px;}
+.currentDt{border:none;border-radius:5px; background:#FF5A55;color:#fff; }
+
+.navContent li{width:162px;margin:0 auto;}
+.navContent li a{display:block;height:35px; line-height:35px; font-size:14px;color:#555;border-bottom:1px dotted #ddd;}
+.navContent li a:hover{color:#ff5a55;}
+.navContent li a.ada{color:#ff5a55;}
+
+.nleftmenu{ float:left; width:120px; height:auto; overflow:hidden; background:#eee;text-align:center;border:none;}
+.nleftmenu .subNavBox{width:118px;}
+.nleftmenu .navContent li{width:118px;margin:0 auto;}
+.nleftmenu .subNav{font-size:16px; margin:15px;}
+
+/*实盘左侧需求 额外添加*/
+#stockNavBox .subNav a { color: #666}
+#stockNavBox .subNav a.ada { color: #fff}
+#stockNavBox .subNav a { display: block; }
+
+
+.navContent1{height:613px; width:108px; padding:0px 5px; background:#eee;}
+.navContent1 li{float:left;  height:34px; line-height:34px; cursor:pointer; color:#333; text-align:center;margin-bottom:5px;}
+.navContent1 li a{background:url("../images/sp_left.gif") no-repeat; display:block;padding-left:10px;width:100px; color:#333;}
+
+
+.maishipan .tabshow .tabTagBox li#sp_1{background-position:0px -34px;}
+.maishipan .tabshow .tabTagBox li#sp_1:hover{background-position:-220px -34px;}
+.maishipan .tabshow .tabTagBox li#sp_1.current{background-position:-110px -34px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_1 a{background-position:0px -68px;}
+.navContent1 li.sp_1 a:hover{background-position:-220px -68px;}
+.navContent1 li.sp_1 a.ada{background-position:-110px -68px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_2 a{background-position:0px -204px;}
+.navContent1 li.sp_2 a:hover{background-position:-220px -204px;}
+.navContent1 li.sp_2 a.ada{background-position:-110px -204px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_3 a{background-position:0px -102px;}
+.navContent1 li.sp_3 a:hover{background-position:-220px -102px;}
+.navContent1 li.sp_3 a.ada{background-position:-110px -102px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_5 a{background-position:-0px 0;}
+.navContent1 li.sp_5 a:hover{background-position:-220px 0;}
+.navContent1 li.sp_5 a.ada{background-position:-110px 0; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_6 a{background-position:0px -236px;}
+.navContent1 li.sp_6 a:hover{background-position:-220px -236px;}
+.navContent1 li.sp_6 a.ada{background-position:-110px -238px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_7 a{background-position:0px -272px;}
+.navContent1 li.sp_7 a:hover{background-position:-220px -272px;}
+.navContent1 li.sp_7 a.ada{background-position:-110px -272px; color:#fff; font-weight:bold;}
+
+.maishipan .tabshow .tabTagBox li#groupsell{background-position:0px -136px;}
+.maishipan .tabshow .tabTagBox li#groupsell:hover{background-position:-220px -136px;}
+.maishipan .tabshow .tabTagBox li#groupsell.current{background-position:-110px -136px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_4 a{background-position:0px -170px;}
+.navContent1 li.sp_4 a:hover{background-position:-220px -170px;}
+.navContent1 li.sp_4 a.ada{background-position:-110px -170px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_8 a{background-position:0px -306px;}
+.navContent1 li.sp_8 a:hover{background-position:-220px -306px;}
+.navContent1 li.sp_8 a.ada{background-position:-110px -306px; color:#fff; font-weight:bold;}
+
+.navContent1 li.sp_9 a{background-position:0px -340px;}
+.navContent1 li.sp_9 a:hover{background-position:-220px -340px;}
+.navContent1 li.sp_9 a.ada{background-position:-110px -340px; color:#fff; font-weight:bold;}
+
+.maishipan .tabshow .tabTagBox li#sp_9{background-position:0px -374px;}
+.maishipan .tabshow .tabTagBox li#sp_9:hover{background-position:-220px -374px;}
+.maishipan .tabshow .tabTagBox li#sp_9.current{background-position:-110px -374px; color:#fff; font-weight:bold;}
+
+
+.maishipan .tabshow .tabTagBox li#sp_10{background-position:0px -408px;}
+.maishipan .tabshow .tabTagBox li#sp_10:hover{background-position:-220px -408px;}
+.maishipan .tabshow .tabTagBox li#sp_10.current{background-position:-110px -408px; color:#fff; font-weight:bold;}
+
+.maishipan .tabshow .tabTagBox li#sp_11{background-position:0px -442px;}
+.maishipan .tabshow .tabTagBox li#sp_11:hover{background-position:-220px -442px;}
+.maishipan .tabshow .tabTagBox li#sp_11.current{background-position:-110px -442px; color:#fff; font-weight:bold;}

@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+using System.Reflection;
+using System.Data.OleDb;
+using System.Data;
+using System.Collections;
+using System.Collections.Specialized;
+namespace Comtest
+{
+    //类接口
+    [Guid("394BE3FE-18B8-4c5e-B611-75B5C5493A4E")]
+    public interface ITest
+    {
+        string Test(string test);
+        [DispId(1)]       //固定写法，索引号从1开始
+        string About();
+        [DispId(2)]
+        int Add(int a, int b);
+    }
+    //事件接口
+    [Guid("45875EE5-5C8D-4016-897A-FCC7DD5A6834"),             //固定写法
+    InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]
+    public interface ITest_Events
+    {
+    }
+    //类
+    [Guid("854C2016-E7BF-41ea-8F09-B873698E9F8E"),           //固定写法
+     ClassInterface(ClassInterfaceType.None),
+    ComSourceInterfaces(typeof(ITest_Events))]
+    public class Class2 : ITest          //该类继承上面的接口，并实现抽象方法
+    {
+        public string Test(string test)
+        {
+            return test;
+        }
+        public string About() { return "欢迎访问 http://www.35.com"; }
+        public int Add(int a, int b) { return a + b; }
+    }
+}
